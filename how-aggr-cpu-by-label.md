@@ -6,7 +6,7 @@ https://medium.com/@amimahloof/kubernetes-promql-prometheus-cpu-aggregation-walk
 
 Query:
 
-###CPU Aggregation label: sparkoperator.k8s.io/app-name=scala (label_sparkoperator_k8s_io_app_name)
+### CPU Aggregation label: sparkoperator.k8s.io/app-name=scala (label_sparkoperator_k8s_io_app_name)
 
 ```
 sum by (label_sparkoperator_k8s_io_app_name) (
@@ -17,7 +17,7 @@ sum by (label_sparkoperator_k8s_io_app_name) (
 )
 ```
 
-###RAM Aggregation label: sparkoperator.k8s.io/app-name=scala (label_sparkoperator_k8s_io_app_name)
+### RAM Aggregation label: sparkoperator.k8s.io/app-name=scala (label_sparkoperator_k8s_io_app_name)
 
 ```
 (sum by (label_sparkoperator_k8s_io_app_name) (
